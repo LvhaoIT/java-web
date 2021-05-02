@@ -3,4 +3,70 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <servlet>
+        <servlet-name>OneServlet</servlet-name>
+        <servlet-class>com.demo01.controller.Response.OneServlet</servlet-class>
+    </servlet>
+    <!--为servlet接口提供一个简单的别名-->
+    <servlet-mapping>
+        <servlet-name>OneServlet</servlet-name>
+        <url-pattern>/one</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TwoServlet</servlet-name>
+        <servlet-class>com.demo01.controller.Response.TwoServlet</servlet-class>
+        <load-on-startup>2</load-on-startup><!--填写一个大于0的整数-->
+        <!--可以让这个servlet对象在一开始就进行创建-->
+        <!--如果为0或者不写的话，就是在被用户访问的时候在创建在一开始就进行创建-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TwoServlet</servlet-name>
+        <url-pattern>/two</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ThreeServlet</servlet-name>
+        <servlet-class>com.demo01.controller.Response.ThreeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ThreeServlet</servlet-name>
+        <url-pattern>/three</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FourServlet</servlet-name>
+        <servlet-class>com.demo01.controller.Response.FourServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FourServlet</servlet-name>
+        <url-pattern>/four</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>RequestServlet01</servlet-name>
+        <servlet-class>com.demo01.controller.Request.RequestServlet01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestServlet01</servlet-name>
+        <url-pattern>/req1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RequestServlet02</servlet-name>
+        <servlet-class>com.demo01.controller.Request.RequestServlet02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestServlet02</servlet-name>
+        <url-pattern>/req2</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>RequestServlet03</servlet-name>
+        <servlet-class>com.demo01.controller.Request.RequestServlet03</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestServlet03</servlet-name>
+        <url-pattern>/req3</url-pattern>
+    </servlet-mapping>
+
 </web-app>
