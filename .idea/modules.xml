@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java-web.iml" filepath="$PROJECT_DIR$/java-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/在线考试管理系统/在线考试管理系统.iml" filepath="$PROJECT_DIR$/在线考试管理系统/在线考试管理系统.iml" />
     </modules>
   </component>
 </project>
