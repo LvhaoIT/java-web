@@ -44,5 +44,11 @@
         <url-pattern>/user/update</url-pattern>
     </servlet-mapping>
 
+    <!--自定义默认欢迎资源文件-->
+    <welcome-file-list>
+        <welcome-file>login.html</welcome-file>
+        <!--动态资源文件也可以是欢迎文件 ,但是要去除别名最前面的 / -->
+        <welcome-file>user/login</welcome-file>
+    </welcome-file-list>
 
 </web-app>

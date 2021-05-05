@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/java-web.iml" filepath="$PROJECT_DIR$/java-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cookie_订餐会员卡/Cookie_订餐会员卡.iml" filepath="$PROJECT_DIR$/Cookie_订餐会员卡/Cookie_订餐会员卡.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HttpSession_购物车功能/HttpSession_购物车功能.iml" filepath="$PROJECT_DIR$/HttpSession_购物车功能/HttpSession_购物车功能.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-web.iml" filepath="$PROJECT_DIR$/.idea/java-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet转发与重定向/servlet转发与重定向.iml" filepath="$PROJECT_DIR$/servlet转发与重定向/servlet转发与重定向.iml" />
       <module fileurl="file://$PROJECT_DIR$/在线考试管理系统/在线考试管理系统.iml" filepath="$PROJECT_DIR$/在线考试管理系统/在线考试管理系统.iml" />
     </modules>
   </component>
