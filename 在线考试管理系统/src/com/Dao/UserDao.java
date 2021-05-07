@@ -3,6 +3,7 @@ package com.Dao;
 import com.entity.Users;
 import com.til.JdbcUtil;
 
+import javax.servlet.http.HttpServletRequest;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -13,7 +14,29 @@ public class UserDao {
     //驱动已经创建
     private JdbcUtil util = new JdbcUtil();
 
+    //------------------------------重载add
+    public int add(Users user, HttpServletRequest request) {
+        int result = 0;
+        String sql = "insert into users(userName,password,sex,email) values(?,?,?,?)";
+        //编译sql框架
+        PreparedStatement ps = this.util.createStatement(request, sql);
+        //插入值
+        try {
+            ps.setString(1, user.getUserName());
+            ps.setString(2, user.getPassword());
+            ps.setString(3, user.getSex());
+            ps.setString(4, user.getEmail());
+            //执行sql语句
+            result = ps.executeUpdate();
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        } finally {
+            this.util.close(request);
+        }
+        return result;
+    }
 
+    //-------------------------------------------
     public int add(Users user) {
         int result = 0;
         String sql = "insert into users(userName,password,sex,email) values(?,?,?,?)";

@@ -3,6 +3,12 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <!--自定义默认欢迎资源文件-->
+    <welcome-file-list>
+        <welcome-file>login.html</welcome-file>
+        <!--动态资源文件也可以是欢迎文件 ,但是要去除别名最前面的 / -->
+        <!--        <welcome-file>user/login</welcome-file>-->
+    </welcome-file-list>
     <servlet>
         <servlet-name>UserAddServlet</servlet-name>
         <servlet-class>com.controller.UserAddServlet</servlet-class>
@@ -44,11 +50,16 @@
         <url-pattern>/user/update</url-pattern>
     </servlet-mapping>
 
-    <!--自定义默认欢迎资源文件-->
-    <welcome-file-list>
-        <welcome-file>login.html</welcome-file>
-        <!--动态资源文件也可以是欢迎文件 ,但是要去除别名最前面的 / -->
-        <welcome-file>user/login</welcome-file>
-    </welcome-file-list>
-
+    <listener>
+        <listener-class>com.listener.OneListener</listener-class>
+    </listener>
+    <!--登录拦截器-->
+    <filter>
+        <filter-name>oneFilter</filter-name>
+        <filter-class>com.filter.OneFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>oneFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 </web-app>

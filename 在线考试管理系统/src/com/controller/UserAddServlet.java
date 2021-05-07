@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Date;
 
 public class UserAddServlet extends HttpServlet {
     @Override
@@ -27,8 +28,10 @@ public class UserAddServlet extends HttpServlet {
 
         System.out.println(userName + "  " + password + "  " + sex + "  " + email);
         //2.调用userDao将用户信息填充到insert命令并借助jdbc规范发送到数据库服务器中
-        int result = new UserDao().add(new Users(userName, password, sex, email));
-
+        Date startDate = new Date();//开始时间
+        int result = new UserDao().add(new Users(userName, password, sex, email), request);
+        Date endDate = new Date();//结束时间
+        System.out.println("添加消耗时间为：" + (endDate.getTime() - startDate.getTime()));
         //3.调用响应对象将处理结果以二进制形式写入到响应体中
         if (result == 1)
             out.println("<font style='color:read;font-size:40'>用户注册成功！</font>");

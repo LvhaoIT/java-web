@@ -1,6 +1,10 @@
 package com.til;
 
+import javax.servlet.ServletContext;
+import javax.servlet.http.HttpServletRequest;
 import java.sql.*;
+import java.util.Iterator;
+import java.util.Map;
 
 public class JdbcUtil {
     private Connection conn = null;
@@ -14,6 +18,54 @@ public class JdbcUtil {
             e.printStackTrace();
         }
     }
+
+    //--------------------通过全局作用域对线得到Connetion---------------start
+    public Connection createCon(HttpServletRequest request) {
+        //1.通过请求对象来获得全局作用域对象
+        ServletContext application = request.getServletContext();
+        //2.获得对象集合
+        Map map = (Map) application.getAttribute("key1");
+        //3.从map中获得一个处于空闲状态的Connection
+        Iterator it = map.keySet().iterator();
+        while (it.hasNext()) {
+            conn = (Connection) it.next();
+            if ((boolean) map.get(conn)) {
+                //判断是否可用
+                map.put(conn, false);//需要用的进行关闭
+                break;
+            }
+
+        }
+        return conn;
+    }
+    //--------------------通过全局作用域对线得到Connetion---------------end
+
+    //----------------====重载运行ps--------------------------------Statr
+    public PreparedStatement createStatement(HttpServletRequest request, String sql) {
+        try {
+            ps = createCon(request).prepareStatement(sql);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return ps;
+    }
+    //---------------------重载---------------------------
+
+    //------------------重载close方法----------------------Srart
+    public void close(HttpServletRequest request) {
+        try {
+            if (ps != null)
+                ps.close();
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        ServletContext application = request.getServletContext();//获得全局
+        Map map = (Map) application.getAttribute("key1");
+        map.put(conn, true);//表明又可以使用了
+
+
+    }
+    //------------------重载close方法----------------------end
 
     //封装conn对象创建
     public Connection createCon() {
@@ -29,7 +81,7 @@ public class JdbcUtil {
 
     //封装PreparedStatement对象
     public PreparedStatement createStatement(String sql) {
-        Connection conn = createCon();
+        conn = createCon();
         try {
             ps = conn.prepareStatement(sql);
         } catch (SQLException throwables) {

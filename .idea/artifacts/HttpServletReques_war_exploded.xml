@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="HttpServletReques接口实现数据共享:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/HttpServletReques_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="HttpServletReques接口实现数据共享/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HttpServletReques接口实现数据共享" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
