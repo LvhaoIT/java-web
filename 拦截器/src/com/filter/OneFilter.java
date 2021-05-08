@@ -25,7 +25,7 @@ public class OneFilter implements Filter {
             //过滤器代替Http服务器拒绝本次请求
             servletResponse.setContentType("text/html;charset=utf-8");
             PrintWriter out = servletResponse.getWriter();
-            out.println("<font style='color:red; font-size:40px'>年龄不合适，不能看！</font>");
+            out.println("<font style='color:red; font-size:40px'>资产不合适，不能看！</font>");
         }
     }
 }
