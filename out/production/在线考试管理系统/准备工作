@@ -34,3 +34,27 @@
       3.在src下 com.til.JdbcUtil 工具类【复用】
 
       4.在web下WEB-INF下创建lib文件夹  存放mysql提供JDBC实现jar包
+
+
+      任务：在线考试管理系统----试题信息管理模块
+
+      子任务：
+            添加试题
+            查询试题
+            删除试题
+            更新试题
+
+      准备工作
+      1.准备试题信息表，单选题，每道题有四个选项，一个正确答案
+      creat table question(
+        queestionId int primary key auto_increment,
+        title varchar(50),# 10-8=?
+        optionA varchar(20),#A:9
+        optionB varchar(20),#B:1
+        optionC varchar(20),#B:2
+        optionD varchar(20),#B:0
+        answer char(1)  #正确答案：c
+      )
+
+      insert into question(title,optionA,optionB,optionC,optionD,answer)
+      values('10-8=','9','1','2','0', 'c');

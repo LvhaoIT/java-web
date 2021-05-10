@@ -1,4 +1,4 @@
-package com.controller;
+package com.controller.User;
 
 import com.Dao.UserDao;
 

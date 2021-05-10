@@ -11,7 +11,7 @@
     </welcome-file-list>
     <servlet>
         <servlet-name>UserAddServlet</servlet-name>
-        <servlet-class>com.controller.UserAddServlet</servlet-class>
+        <servlet-class>com.controller.User.UserAddServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>UserAddServlet</servlet-name>
@@ -19,7 +19,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>UserFindServlet</servlet-name>
-        <servlet-class>com.controller.UserFindServlet</servlet-class>
+        <servlet-class>com.controller.User.UserFindServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>UserFindServlet</servlet-name>
@@ -27,7 +27,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>UserDeleteServlet</servlet-name>
-        <servlet-class>com.controller.UserDeleteServlet</servlet-class>
+        <servlet-class>com.controller.User.UserDeleteServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>UserDeleteServlet</servlet-name>
@@ -35,12 +35,61 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>UserUpdataServlet</servlet-name>
-        <servlet-class>com.controller.UserUpdataServlet</servlet-class>
+        <servlet-class>com.controller.User.UserUpdataServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UserLoginServlet</servlet-name>
-        <servlet-class>com.controller.UserLoginServlet</servlet-class>
+        <servlet-class>com.controller.User.UserLoginServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>UserUpdateServlet_2</servlet-name>
+        <servlet-class>com.controller.User.UserUpdateServlet_2</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>QusetAddServlet</servlet-name>
+        <servlet-class>com.controller.Quest.QuestAddServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>QuestFindAllServlet</servlet-name>
+        <servlet-class>com.controller.Quest.QuestFindAllServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>QuestDeleteServlet</servlet-name>
+        <servlet-class>com.controller.Quest.QuestDeleteServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>QuestUpdataServlet</servlet-name>
+        <servlet-class>com.controller.Quest.QuestUpdataServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>QuestUpdataServlet_2</servlet-name>
+        <servlet-class>com.controller.Quest.QuestUpdataServlet_2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>QuestUpdataServlet_2</servlet-name>
+        <url-pattern>/quest/updata2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>QuestUpdataServlet</servlet-name>
+        <url-pattern>/quest/updata1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>QuestDeleteServlet</servlet-name>
+        <url-pattern>/quest/delete</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>QuestFindAllServlet</servlet-name>
+        <url-pattern>/quest/findAll</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>QusetAddServlet</servlet-name>
+        <url-pattern>/quest/add</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserUpdateServlet_2</servlet-name>
+        <url-pattern>/user/update2</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>UserLoginServlet</servlet-name>
         <url-pattern>/user/login</url-pattern>
@@ -61,5 +110,18 @@
     <filter-mapping>
         <filter-name>oneFilter</filter-name>
         <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <!--    utf-8拦截器-->
+    <filter>
+        <filter-name>UTF_Filter</filter-name>
+        <filter-class>com.filter.UTF8_Filter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>UTF_Filter</filter-name>
+        <url-pattern>/quest/findAll</url-pattern>
+        <url-pattern>/quest/delete</url-pattern>
+        <url-pattern>/quest/*</url-pattern>
+        <url-pattern>/quest/updata1</url-pattern>
+
     </filter-mapping>
 </web-app>

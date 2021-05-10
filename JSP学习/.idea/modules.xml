@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01_JSP初学习/01_JSP初学习.iml" filepath="$PROJECT_DIR$/01_JSP初学习/01_JSP初学习.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_JSP中java书写规则/02_JSP中java书写规则.iml" filepath="$PROJECT_DIR$/02_JSP中java书写规则/02_JSP中java书写规则.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_JSP中的内置java对象/03_JSP中的内置java对象.iml" filepath="$PROJECT_DIR$/03_JSP中的内置java对象/03_JSP中的内置java对象.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_Servlet与JSP的联合调用案例/04_Servlet与JSP的联合调用案例.iml" filepath="$PROJECT_DIR$/04_Servlet与JSP的联合调用案例/04_Servlet与JSP的联合调用案例.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JSP学习.iml" filepath="$PROJECT_DIR$/.idea/JSP学习.iml" />
     </modules>
   </component>
