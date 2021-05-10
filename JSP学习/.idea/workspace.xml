@@ -1,31 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="04_Servlet与JSP的文件分工:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b280169-efef-44ce-aabe-8a7ca98e73d9" name="默认的" comment="jsp1">
-      <change afterPath="$PROJECT_DIR$/.idea/JSP学习.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/01_JSP_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_JSP初学习/01_JSP初学习.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_JSP初学习/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_JSP初学习/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../拦截器/src/com/filter/OneFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../拦截器/src/com/filter/OneFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../拦截器/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../拦截器/web/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="1b280169-efef-44ce-aabe-8a7ca98e73d9" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/02_JSPjava_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/03_JSPjava_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/04_ServletJSP_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_JSP初学习/web/index_2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_JSP中java书写规则/02_JSP中java书写规则.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_JSP中java书写规则/src/com/entity/Stu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_JSP中java书写规则/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_JSP中java书写规则/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_JSP中java书写规则/web/jsp导包.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_JSP中java书写规则/web/jsp条件判断.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_JSP中的内置java对象/03_JSP中的内置java对象.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_JSP中的内置java对象/src/com/controller/oneServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_JSP中的内置java对象/web/Session_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_JSP中的内置java对象/web/Session_2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_JSP中的内置java对象/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_JSP中的内置java对象/web/application.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_JSP中的内置java对象/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_JSP中的内置java对象/web/request.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Servlet与JSP的联合调用案例/04_Servlet与JSP的联合调用案例.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Servlet与JSP的联合调用案例/src/com/controller/oneServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Servlet与JSP的联合调用案例/src/com/entity/Stu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Servlet与JSP的联合调用案例/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Servlet与JSP的联合调用案例/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Servlet与JSP的联合调用案例/web/user_show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/Dao/QusetDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/Quest/QuestAddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/Quest/QuestDeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/Quest/QuestFindAllServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/Quest/QuestUpdataServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/Quest/QuestUpdataServlet_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/User/UserUpdataServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/User/UserUpdateServlet_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/entity/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/filter/UTF8_Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/web/Update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/web/quest/QusetUpdata.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/web/quest/findAll.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/web/quest/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/web/quest/questAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/在线考试管理系统/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/com/Dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/在线考试管理系统/com/Dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/com/controller/UserAddServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/com/controller/UserDeleteServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/com/controller/UserFindServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/com/controller/UserLoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/com/controller/UserUpdataServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/left.html" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/在线考试管理系统/left.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/准备工作" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/在线考试管理系统/准备工作" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/src/com/Dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/Dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/UserAddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/User/UserAddServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/UserDeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/User/UserDeleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/UserFindServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/User/UserFindServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/UserLoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/User/UserLoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/UserUpdataServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/src/com/listener/OneListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/listener/OneListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/src/准备工作" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/src/准备工作" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/web/left.html" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/web/left.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\IDEA\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -33,22 +105,36 @@
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
   <component name="ProjectId" id="1sEcnuNyj1bmsAQbbKO6vhNZTQs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="模块" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Facet" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.34867662" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.entity" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -62,6 +148,79 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 9.0.40" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.40" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/04_ServletJSP_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="04_Servlet与JSP的文件分工:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/04_ServletJSP_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="未命名_JSP学习_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55734" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="04_Servlet与JSP的文件分工:war exploded" />
+        </option>
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,37 +230,158 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620441359558</updated>
-      <workItem from="1620441361563" duration="600000" />
+      <workItem from="1620441361563" duration="1368000" />
+      <workItem from="1620541857108" duration="7604000" />
+      <workItem from="1620550687047" duration="6944000" />
+      <workItem from="1620575696269" duration="1153000" />
+      <workItem from="1620657930804" duration="1934000" />
     </task>
+    <task id="LOCAL-00001" summary="jsp1">
+      <created>1620442112542</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620442112542</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="jsp1" />
     <option name="LAST_COMMIT_MESSAGE" value="jsp1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="44" y="93" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1620441507486">
+    <state x="223" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620658493147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="44" y="93" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1620441507486" />
-    <state x="250" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1620441648442">
+    <state x="223" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1620658493147" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1620544954760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="250" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1620441648442" />
-    <state x="0" y="0" key="#项目结构" timestamp="1620441657563">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1620544954760" />
+    <state x="498" y="188" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1620551016431">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="0" key="#项目结构/0.0.1536.824@0.0.1536.824" timestamp="1620441657563" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1620441617139">
+    <state x="498" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1620551016431" />
+    <state x="44" y="93" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1620550470708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1620441617139" />
-    <state x="0" y="25" key="new project wizard" timestamp="1620441439766">
+    <state x="44" y="93" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1620550470708" />
+    <state x="311" y="318" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1620551301923">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="25" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1620441439766" />
+    <state x="311" y="318" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1536.824@0.0.1536.824" timestamp="1620551301923" />
+    <state x="620" y="123" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1620551408207">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="620" y="123" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1620551408207" />
+    <state x="298" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1620551105311">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="298" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1620551105311" />
+    <state x="250" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1620551378133">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="250" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1620551378133" />
+    <state x="0" y="0" key="#项目结构" timestamp="1620551380548">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="#项目结构/0.0.1536.824@0.0.1536.824" timestamp="1620551380548" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1620442111063">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1620442111063" />
+    <state x="548" y="177" key="FileChooserDialogImpl" timestamp="1620572974232">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="177" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620572974232" />
+    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1620660059022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620660059022" />
+    <state width="746" height="210" key="GridCell.Tab.0.center" timestamp="1620660059022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620660059022" />
+    <state width="746" height="210" key="GridCell.Tab.0.left" timestamp="1620660059021">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620660059021" />
+    <state width="746" height="210" key="GridCell.Tab.0.right" timestamp="1620660059022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620660059022" />
+    <state width="501" height="210" key="GridCell.Tab.1.bottom" timestamp="1620572975400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="501" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620572975400" />
+    <state width="501" height="210" key="GridCell.Tab.1.center" timestamp="1620572975400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="501" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1620572975400" />
+    <state width="501" height="210" key="GridCell.Tab.1.left" timestamp="1620572975400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="501" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1620572975400" />
+    <state width="501" height="210" key="GridCell.Tab.1.right" timestamp="1620572975400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="501" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1620572975400" />
+    <state width="501" height="210" key="GridCell.Tab.2.bottom" timestamp="1620572975400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="501" height="210" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620572975400" />
+    <state width="501" height="210" key="GridCell.Tab.2.center" timestamp="1620572975400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="501" height="210" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1620572975400" />
+    <state width="501" height="210" key="GridCell.Tab.2.left" timestamp="1620572975400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="501" height="210" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1620572975400" />
+    <state width="501" height="210" key="GridCell.Tab.2.right" timestamp="1620572975400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="501" height="210" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1620572975400" />
+    <state width="501" height="210" key="GridCell.Tab.3.bottom" timestamp="1620549824435">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="501" height="210" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620549824435" />
+    <state width="501" height="210" key="GridCell.Tab.3.center" timestamp="1620549824435">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="501" height="210" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1620549824435" />
+    <state width="501" height="210" key="GridCell.Tab.3.left" timestamp="1620549824435">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="501" height="210" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1620549824435" />
+    <state width="501" height="210" key="GridCell.Tab.3.right" timestamp="1620549824435">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="501" height="210" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1620549824435" />
+    <state x="444" y="115" width="909" height="593" key="NewModule_or_Project.wizard" timestamp="1620550746308">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="444" y="115" width="909" height="593" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1620550746308" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1620551625676">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1620551625676" />
+    <state x="0" y="148" key="Vcs.Push.Dialog.v2" timestamp="1620442140613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620442140613" />
+    <state x="363" y="28" key="new project wizard" timestamp="1620659278079">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="363" y="28" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1620659278079" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1620551642664">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1620551642664" />
   </component>
 </project>

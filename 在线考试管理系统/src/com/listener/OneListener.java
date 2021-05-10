@@ -24,7 +24,7 @@ public class OneListener implements ServletContextListener {
     public void contextInitialized(ServletContextEvent sce) {
         JdbcUtil util = new JdbcUtil();
         Map map = new HashMap<>();
-        for (int i = 1; i <= 20; i++) {
+        for (int i = 1; i <= 2; i++) {
             Connection con = util.createCon();
             System.out.println("在服务器启动时，创建出Connection对象 " + con + "(" + i + ")");
             map.put(con, true);//true表示这个通道处于空闲状态，false通道正在被使用

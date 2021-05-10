@@ -58,6 +58,7 @@ public class UserDao {
         return result;
     }
 
+
     public List find() {
         List<Users> list = new ArrayList();
         ResultSet rs = null;
@@ -102,9 +103,20 @@ public class UserDao {
         return result;
     }
 
-    public int update(String userId) {
+    public int update(Users user) {
         int result = 0;
-
+        String sql = "update users set userName=?,password=?,sex=?,email=? where userid=?";
+        PreparedStatement ps = this.util.createStatement(sql);
+        try {
+            ps.setString(1, user.getUserName());
+            ps.setString(2, user.getPassword());
+            ps.setString(3, user.getSex());
+            ps.setString(4, user.getEmail());
+            ps.setInt(5, user.getUserId());
+            result = ps.executeUpdate();
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
         return result;
     }
 
@@ -128,4 +140,36 @@ public class UserDao {
 
         return result;
     }
+
+
+    /*
+    查找一个user对象
+     */
+    public Users findOne(Integer userId) {
+        Users user = null;
+        ResultSet rs = null;
+        String sql = "select * from Users where userId=?";
+        PreparedStatement ps = this.util.createStatement(sql);
+        try {
+            ps.setInt(1, userId);
+            rs = ps.executeQuery();
+            if (rs.next()) {
+                Integer Id;
+                String userName, password, sex, email;
+                Id = rs.getInt("userId");
+                userName = rs.getString("userName");
+                password = rs.getString("password");
+                sex = rs.getString("sex");
+                email = rs.getString("email");
+                user = new Users(Id, userName, password, sex, email);
+            }
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+
+        return user;
+    }
+
+
 }

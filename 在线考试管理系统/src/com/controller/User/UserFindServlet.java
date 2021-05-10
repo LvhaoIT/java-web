@@ -1,4 +1,4 @@
-package com.controller;
+package com.controller.User;
 
 import com.Dao.UserDao;
 import com.entity.Users;
@@ -36,6 +36,7 @@ public class UserFindServlet extends HttpServlet {
         for (Users e : list) {
             out.println("<tr>" + "<td>" + e.getUserId() + "</td>" + "<td>" + e.getUserName() + "</td>" + "<td>" + e.getPassword() + "</td>" + "<td>" + e.getSex() + "</td>" + "<td>" + e.getEmail() + "</td>");
             out.println("<td><a href='/demo1/user/delete?userId=" + e.getUserId() + "'>删除用户 &nbsp &nbsp");
+
             out.println("<a href='/demo1/user/update?userId=" + e.getUserId() + "'>修改用户</td>");
             out.println("</tr>");
         }
