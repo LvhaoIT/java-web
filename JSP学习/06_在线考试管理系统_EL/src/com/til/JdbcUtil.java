@@ -70,7 +70,7 @@ public class JdbcUtil {
     //封装conn对象创建
     public Connection createCon() {
         try {
-            conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/kaoshixitong?serverTimezone=UTC", "root", "lh051920");
+            conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/csdb?serverTimezone=UTC", "root", "lh051920");
             System.out.println("conn对象创建成功！");
         } catch (SQLException throwables) {
             throwables.printStackTrace();

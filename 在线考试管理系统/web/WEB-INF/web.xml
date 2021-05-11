@@ -65,6 +65,22 @@
         <servlet-name>QuestUpdataServlet_2</servlet-name>
         <servlet-class>com.controller.Quest.QuestUpdataServlet_2</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>QuestExamServlet</servlet-name>
+        <servlet-class>com.controller.Quest.QuestExamServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ScoreServlet</servlet-name>
+        <servlet-class>com.controller.Quest.ScoreServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ScoreServlet</servlet-name>
+        <url-pattern>/quest/exam</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>QuestExamServlet</servlet-name>
+        <url-pattern>/quest/questExam</url-pattern>
+    </servlet-mapping>
 
     <servlet-mapping>
         <servlet-name>QuestUpdataServlet_2</servlet-name>

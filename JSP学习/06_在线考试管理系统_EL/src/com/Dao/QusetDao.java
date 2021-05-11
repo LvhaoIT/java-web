@@ -6,7 +6,6 @@ import com.til.JdbcUtil;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -127,33 +126,5 @@ public class QusetDao {
             this.util.close();
         }
         return result;
-    }
-
-    /* 随机获取四个问题 ，返回*/
-    public List examRand() {
-        List exam = new ArrayList();
-        ResultSet rs = null;
-        String sql = "select * from question order by rand() limit 0,4";
-        PreparedStatement ps = this.util.createStatement(sql);
-        try {
-            rs = ps.executeQuery();
-            while (rs.next()) {
-                exam.add(new Question(rs.getInt("questionId"),
-                        rs.getString("title"),
-                        rs.getString("optionA"),
-                        rs.getString("optionB"),
-                        rs.getString("optionC"),
-                        rs.getString("optionD"),
-                        rs.getString("answer")));
-            }
-
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-        } finally {
-            this.util.close(rs);
-            this.util.close();
-        }
-        return exam;
-
     }
 }

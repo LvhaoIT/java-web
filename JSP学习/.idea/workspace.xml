@@ -2,74 +2,64 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="04_Servlet与JSP的文件分工:war exploded" />
+      <artifact name="06_在线考试管理系统_EL:Web exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b280169-efef-44ce-aabe-8a7ca98e73d9" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/02_JSPjava_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/03_JSPjava_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/04_ServletJSP_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_JSP初学习/web/index_2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_JSP中java书写规则/02_JSP中java书写规则.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_JSP中java书写规则/src/com/entity/Stu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_JSP中java书写规则/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_JSP中java书写规则/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_JSP中java书写规则/web/jsp导包.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_JSP中java书写规则/web/jsp条件判断.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_JSP中的内置java对象/03_JSP中的内置java对象.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_JSP中的内置java对象/src/com/controller/oneServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_JSP中的内置java对象/web/Session_1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_JSP中的内置java对象/web/Session_2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_JSP中的内置java对象/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_JSP中的内置java对象/web/application.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_JSP中的内置java对象/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_JSP中的内置java对象/web/request.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Servlet与JSP的联合调用案例/04_Servlet与JSP的联合调用案例.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Servlet与JSP的联合调用案例/src/com/controller/oneServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Servlet与JSP的联合调用案例/src/com/entity/Stu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Servlet与JSP的联合调用案例/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Servlet与JSP的联合调用案例/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Servlet与JSP的联合调用案例/web/user_show.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/Dao/QusetDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/Quest/QuestAddServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/Quest/QuestDeleteServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/Quest/QuestFindAllServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/Quest/QuestUpdataServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/Quest/QuestUpdataServlet_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/User/UserUpdataServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/User/UserUpdateServlet_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/entity/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/filter/UTF8_Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/web/Update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/web/quest/QusetUpdata.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/web/quest/findAll.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/web/quest/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../在线考试管理系统/web/quest/questAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/05_EL_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/06__EL_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_152.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_EL表达式——共享数据/05_EL表达式——共享数据.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_EL表达式——共享数据/src/controller/oneServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_EL表达式——共享数据/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_EL表达式——共享数据/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_EL表达式——共享数据/web/index_1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/.idea/libraries/mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/06_在线考试管理系统_EL.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/Dao/QusetDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/Dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/controller/Quest/QuestAddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/controller/Quest/QuestDeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/controller/Quest/QuestFindAllServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/controller/Quest/QuestUpdataServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/controller/Quest/QuestUpdataServlet_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/controller/User/UserAddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/controller/User/UserDeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/controller/User/UserFindServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/controller/User/UserLoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/controller/User/UserUpdataServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/controller/User/UserUpdateServlet_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/entity/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/entity/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/filter/OneFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/filter/UTF8_Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/listener/OneListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/com/til/JdbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/src/准备工作" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/web/Update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/web/User_Add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/web/WEB-INF/lib/mysql-connector-java-8.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/web/left.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/web/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/web/login_error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/web/quest/QusetUpdata.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/web/quest/findAll.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/web/quest/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/web/quest/questAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_在线考试管理系统_EL/web/top.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/在线考试管理系统/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/com/Dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/在线考试管理系统/com/Dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/com/controller/UserAddServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/com/controller/UserDeleteServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/com/controller/UserFindServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/com/controller/UserLoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/com/controller/UserUpdataServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/left.html" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/在线考试管理系统/left.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/在线考试管理系统/准备工作" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/在线考试管理系统/准备工作" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/src/com/Dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/Dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/UserAddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/User/UserAddServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/UserDeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/User/UserDeleteServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/UserFindServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/User/UserFindServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/UserLoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/User/UserLoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/src/com/controller/UserUpdataServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/src/com/listener/OneListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/src/com/listener/OneListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/src/准备工作" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/src/准备工作" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/web/left.html" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/web/left.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01_JSP初学习/x.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../在线考试管理系统/在线考试管理系统.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../在线考试管理系统/在线考试管理系统.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +69,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -119,14 +109,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="D:/peizhi/MySQL_JDBC/mysql-connector-java-8.0.15.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Facet" />
+    <property name="project.structure.last.edited" value="构件" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34867662" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
@@ -149,12 +139,13 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.40" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.40" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/04_ServletJSP_war_exploded/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/demo1/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="04_Servlet与JSP的文件分工:war exploded">
+        <artifact name="06_在线考试管理系统_EL:Web exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/04_ServletJSP_war_exploded" />
+            <option name="CONTEXT_PATH" value="/demo1" />
           </settings>
         </artifact>
       </deployment>
@@ -217,7 +208,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="04_Servlet与JSP的文件分工:war exploded" />
+          <artifact name="06_在线考试管理系统_EL:Web exploded" />
         </option>
       </method>
     </configuration>
@@ -235,6 +226,9 @@
       <workItem from="1620550687047" duration="6944000" />
       <workItem from="1620575696269" duration="1153000" />
       <workItem from="1620657930804" duration="1934000" />
+      <workItem from="1620700202032" duration="2994000" />
+      <workItem from="1620707426912" duration="2412000" />
+      <workItem from="1620716888534" duration="2887000" />
     </task>
     <task id="LOCAL-00001" summary="jsp1">
       <created>1620442112542</created>
@@ -255,10 +249,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="jsp1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620658493147">
+    <state x="223" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620718298122">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1620658493147" />
+    <state x="223" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1620718298122" />
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1620544954760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -267,10 +261,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1620551016431" />
-    <state x="44" y="93" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1620550470708">
+    <state x="44" y="93" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1620700634948">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="44" y="93" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1620550470708" />
+    <state x="44" y="93" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1620700634948" />
     <state x="311" y="318" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1620551301923">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -283,70 +277,70 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="298" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1620551105311" />
-    <state x="250" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1620551378133">
+    <state x="250" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1620717095496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="250" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1620551378133" />
-    <state x="0" y="0" key="#项目结构" timestamp="1620551380548">
+    <state x="250" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1620717095496" />
+    <state x="161" y="0" key="#项目结构" timestamp="1620717270802">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="0" key="#项目结构/0.0.1536.824@0.0.1536.824" timestamp="1620551380548" />
+    <state x="161" y="0" key="#项目结构/0.0.1536.824@0.0.1536.824" timestamp="1620717270802" />
     <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1620442111063">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1620442111063" />
-    <state x="548" y="177" key="FileChooserDialogImpl" timestamp="1620572974232">
+    <state x="548" y="177" key="FileChooserDialogImpl" timestamp="1620720870348">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="177" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620572974232" />
-    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1620660059022">
+    <state x="548" y="177" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620720870348" />
+    <state width="500" height="223" key="GridCell.Tab.0.bottom" timestamp="1620720880566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620660059022" />
-    <state width="746" height="210" key="GridCell.Tab.0.center" timestamp="1620660059022">
+    <state width="500" height="223" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620720880566" />
+    <state width="500" height="223" key="GridCell.Tab.0.center" timestamp="1620720880566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620660059022" />
-    <state width="746" height="210" key="GridCell.Tab.0.left" timestamp="1620660059021">
+    <state width="500" height="223" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620720880566" />
+    <state width="500" height="223" key="GridCell.Tab.0.left" timestamp="1620720880566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620660059021" />
-    <state width="746" height="210" key="GridCell.Tab.0.right" timestamp="1620660059022">
+    <state width="500" height="223" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620720880566" />
+    <state width="500" height="223" key="GridCell.Tab.0.right" timestamp="1620720880566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620660059022" />
-    <state width="501" height="210" key="GridCell.Tab.1.bottom" timestamp="1620572975400">
+    <state width="500" height="223" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620720880566" />
+    <state width="500" height="223" key="GridCell.Tab.1.bottom" timestamp="1620720880567">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="501" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620572975400" />
-    <state width="501" height="210" key="GridCell.Tab.1.center" timestamp="1620572975400">
+    <state width="500" height="223" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620720880567" />
+    <state width="500" height="223" key="GridCell.Tab.1.center" timestamp="1620720880566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="501" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1620572975400" />
-    <state width="501" height="210" key="GridCell.Tab.1.left" timestamp="1620572975400">
+    <state width="500" height="223" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1620720880566" />
+    <state width="500" height="223" key="GridCell.Tab.1.left" timestamp="1620720880566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="501" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1620572975400" />
-    <state width="501" height="210" key="GridCell.Tab.1.right" timestamp="1620572975400">
+    <state width="500" height="223" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1620720880566" />
+    <state width="500" height="223" key="GridCell.Tab.1.right" timestamp="1620720880566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="501" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1620572975400" />
-    <state width="501" height="210" key="GridCell.Tab.2.bottom" timestamp="1620572975400">
+    <state width="500" height="223" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1620720880566" />
+    <state width="500" height="223" key="GridCell.Tab.2.bottom" timestamp="1620720880567">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="501" height="210" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620572975400" />
-    <state width="501" height="210" key="GridCell.Tab.2.center" timestamp="1620572975400">
+    <state width="500" height="223" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620720880567" />
+    <state width="500" height="223" key="GridCell.Tab.2.center" timestamp="1620720880567">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="501" height="210" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1620572975400" />
-    <state width="501" height="210" key="GridCell.Tab.2.left" timestamp="1620572975400">
+    <state width="500" height="223" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1620720880567" />
+    <state width="500" height="223" key="GridCell.Tab.2.left" timestamp="1620720880567">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="501" height="210" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1620572975400" />
-    <state width="501" height="210" key="GridCell.Tab.2.right" timestamp="1620572975400">
+    <state width="500" height="223" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1620720880567" />
+    <state width="500" height="223" key="GridCell.Tab.2.right" timestamp="1620720880567">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="501" height="210" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1620572975400" />
+    <state width="500" height="223" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1620720880567" />
     <state width="501" height="210" key="GridCell.Tab.3.bottom" timestamp="1620549824435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -363,10 +357,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="501" height="210" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1620549824435" />
-    <state x="444" y="115" width="909" height="593" key="NewModule_or_Project.wizard" timestamp="1620550746308">
+    <state x="444" y="115" width="909" height="593" key="NewModule_or_Project.wizard" timestamp="1620716935160">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="444" y="115" width="909" height="593" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1620550746308" />
+    <state x="444" y="115" width="909" height="593" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1620716935160" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1620551625676">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -375,13 +369,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620442140613" />
-    <state x="363" y="28" key="new project wizard" timestamp="1620659278079">
+    <state x="363" y="28" key="new project wizard" timestamp="1620716919011">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="363" y="28" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1620659278079" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1620551642664">
+    <state x="363" y="28" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1620716919011" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1620717563331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1620551642664" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1620717563331" />
   </component>
 </project>
