@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Cookie_订餐会员卡/Cookie_订餐会员卡.iml" filepath="$PROJECT_DIR$/Cookie_订餐会员卡/Cookie_订餐会员卡.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HttpServletReques接口实现数据共享/HttpServletReques接口实现数据共享.iml" filepath="$PROJECT_DIR$/HttpServletReques接口实现数据共享/HttpServletReques接口实现数据共享.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HttpSession_购物车功能/HttpSession_购物车功能.iml" filepath="$PROJECT_DIR$/HttpSession_购物车功能/HttpSession_购物车功能.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servlet学习/Cookie_订餐会员卡/Cookie_订餐会员卡.iml" filepath="$PROJECT_DIR$/Servlet学习/Cookie_订餐会员卡/Cookie_订餐会员卡.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servlet学习/HttpServletReques接口实现数据共享/HttpServletReques接口实现数据共享.iml" filepath="$PROJECT_DIR$/Servlet学习/HttpServletReques接口实现数据共享/HttpServletReques接口实现数据共享.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servlet学习/HttpSession_购物车功能/HttpSession_购物车功能.iml" filepath="$PROJECT_DIR$/Servlet学习/HttpSession_购物车功能/HttpSession_购物车功能.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-web.iml" filepath="$PROJECT_DIR$/.idea/java-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/servlet转发与重定向/servlet转发与重定向.iml" filepath="$PROJECT_DIR$/servlet转发与重定向/servlet转发与重定向.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servlet学习/servlet转发与重定向/servlet转发与重定向.iml" filepath="$PROJECT_DIR$/Servlet学习/servlet转发与重定向/servlet转发与重定向.iml" />
       <module fileurl="file://$PROJECT_DIR$/在线考试管理系统/在线考试管理系统.iml" filepath="$PROJECT_DIR$/在线考试管理系统/在线考试管理系统.iml" />
-      <module fileurl="file://$PROJECT_DIR$/拦截器/拦截器.iml" filepath="$PROJECT_DIR$/拦截器/拦截器.iml" />
-      <module fileurl="file://$PROJECT_DIR$/监听器接口/监听器接口.iml" filepath="$PROJECT_DIR$/监听器接口/监听器接口.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servlet学习/拦截器/拦截器.iml" filepath="$PROJECT_DIR$/Servlet学习/拦截器/拦截器.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servlet学习/监听器接口/监听器接口.iml" filepath="$PROJECT_DIR$/Servlet学习/监听器接口/监听器接口.iml" />
     </modules>
   </component>
 </project>
