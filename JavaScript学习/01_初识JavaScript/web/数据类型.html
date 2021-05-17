@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        //var num1 = 100;
+        //var num2 = 19.8;
+
+        //var num1 = 'abcd';
+        //var num2 = "a";
+
+        var num1;
+        var num2 = false;
+
+        //typeof 变量名 ；返回当前变量的数据类型名称
+        window.alert("num1的值为" + num1 + "num1的数据类型为：" + typeof num1);
+        window.alert("num2的值为" + num2 + "num2的数据类型为：" + typeof num2);
+        window.alert("fun1的值为" + fun1("mike") + "fun1的数据类型为：" + fun1("mike"));
+
+
+        function fun1(str) {
+            window.alert("成功调用函数fun1！");
+            return "x";
+        }
+    </script>
+</head>
+
+<body>
+    <input type="button" value="调用fun1" onclick="fun1('mike')" />
+
+
+
+</body>
+
+</html>

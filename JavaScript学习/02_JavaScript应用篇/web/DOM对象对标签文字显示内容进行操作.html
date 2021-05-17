@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function fun() {
+            //得到文本框内的值  
+            var str = document.getElementById("t1").value;
+            //赋值给div
+            document.getElementById("div1").innerText = str
+        }
+    </script>
+</head>
+
+<body>
+    <center>
+        <div id="div1" style="width: 200px; height: 200px; background-color: antiquewhite; color:red;"></div>
+        <input type="text" id="t1" />
+        <input type="button" value="提交" onclick="fun()" />
+    </center>
+</body>
+
+</html>

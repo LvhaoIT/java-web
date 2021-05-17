@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function fun1() {
+            var domArray = document.getElementsByTagName("p");
+            for (var i = 0; i < domArray.length; i++) {
+                var domObj = domArray[i];
+                window.alert("标签号：<p>" + domObj.innerText);
+            }
+
+
+        }
+
+    </script>
+</head>
+
+<body>
+
+
+    <p>第一个</p>
+    <p>第二个</p>
+    <p>第三个</p>
+    <br>
+    <input type="button" value="查看所有标签内容" onclick="fun1()" />
+
+</body>
+
+</html>

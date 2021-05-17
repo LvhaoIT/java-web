@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function fun1() {
+            var domArray = document.getElementsByName("deptno");
+            for (var i = 0; i < domArray.length; i++) {
+                var domObj = domArray[i];
+                window.alert("部门：" + domObj.value);
+            }
+
+
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <input type="checkbox" name="deptno" value="10" />10
+    <input type="checkbox" name="deptno" value="20" />20
+    <input type="checkbox" name="deptno" value="30" />30
+    <br>
+    <input type="button" value="查看所有部门号" onclick="fun1()" />
+
+</body>
+
+</html>

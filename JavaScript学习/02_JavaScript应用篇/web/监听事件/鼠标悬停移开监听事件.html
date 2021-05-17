@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+
+        function fun() {
+            var flag = document.getElementById("two").checked;
+            var domArray = document.getElementsByName("one");
+            for (var i = 0; i < domArray.length; i++) {
+                domArray[i].checked = flag;
+            }
+        }
+
+        function fun1(domObj) {
+
+            domObj.style.backgroundColor = "blue";
+
+        }
+        function fun2(domObj) {
+
+            domObj.style.backgroundColor = "white";
+
+        }
+
+
+    </script>
+
+</head>
+
+<body>
+    <!-- 
+        * 1） onclick :  监听用户何时使用鼠标【单击】当前标签
+        * 2） onmouseover: 监听用户何时将鼠标【悬停】当前标签上方
+        * 3） onmouseout : 监听用户何时将鼠标从当前标签上方【移开】
+        * 4） onfocus    : 监听用户何时通过鼠标让当前标签获得【光标】
+        * 5） onblur     : 监听用户何时通过鼠标让当前标签丢失【光标】 -->
+    <center>
+        <table align="center" border="2">
+            <tr>
+                <td><input type="checkbox" id="two" onclick="fun(this)" />全选/全不选</td>
+                <td>职位</td>
+                <td>工资</td>
+            </tr>
+            <tr onmouseover="fun1(this)" onmouseout="fun2(this)">
+                <td><input type="checkbox" name="one" /></td>
+                <td>初级程序员</td>
+                <td>10000</td>
+            </tr>
+            <tr onmouseover="fun1(this)" onmouseout="fun2(this)">
+                <td><input type="checkbox" name="one"></td>
+                <td>高级程序员</td>
+                <td>40000</td>
+            </tr>
+            <tr onmouseover="fun1(this)" onmouseout="fun2(this)">
+                <td><input type="checkbox" name="one"></td>
+                <td>架构师</td>
+                <td>50000</td>
+            </tr>
+
+        </table>
+    </center>
+
+</body>
+
+</html>

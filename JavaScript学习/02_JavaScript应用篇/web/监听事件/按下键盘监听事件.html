@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>键盘弹起监听事件</title>
+    <script type="text/javascript">
+        var myArray = ["smite", "tomcat", "huasiye", "lvhao", "dairenjie", "zhousiyu", "duanqiqi", "zangzhengyu", "houxingyu", "shengyifan"];
+
+        function fun1() {
+            //1.取得文本框中的内容
+            var str = document.getElementById("one").value;
+            //2.到数组中定位包含了指定内容的字符串
+            var value = "";
+            if (str == "") {
+                document.getElementById("two").style.display = "none";
+                return;
+            }
+            for (var i = 0; i < myArray.length; i++) {
+                var str1 = myArray[i];
+                //indexOf() "abc".indexOf("a") 会返回a在abc中第一出现的位置
+                if (str1.indexOf(str) != -1) {
+                    value = value + str1 + "<br/>";
+                }
+
+            }
+            if (value == "") {
+                document.getElementById("two").style.display = "none";
+                return;
+            }
+            //3.将定位字符串作为文字显示内容填充到Div中
+            document.getElementById("two").innerHTML = value;
+            document.getElementById("two").style.display = "block";//显示
+        }
+
+    </script>
+
+
+</head>
+
+<body>
+    <center>
+        <div><img src="bg.png"></div>
+        <input type="text" id="one" size="50" style="width: 300px; position: fixed;right: 790px;" onkeyup="fun1()" />
+        <input type="button" style="background-color: #4e6ef2; color: #ffffff; position: fixed;right: 722px; "
+            value="百度一下">
+        <br>
+        <div id="two"
+            style="background-color: antiquewhite; color:black;width: 300px;height: 300px;position: fixed;right: 790px; display: none;">
+        </div>
+    </center>
+
+
+
+
+</body>
+
+</html>
