@@ -4,6 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <title>User_Add.html</title>
+
+    <script type="text/javascript">
+        function fun1() {
+            //获得初始密码
+            var pass = document.getElementById("one").value;
+            if (pass == "") {
+                document.getElementById("one").focus();//让one对象获得光标
+                document.getElementById("font_1").innerText = "*密码不能为空";
+            } else {
+                document.getElementById("font_1").innerText = "*";
+            }
+        }
+
+        function fun2() {
+            var pass1 = document.getElementById("one").value;
+            var pass2 = document.getElementById("two").value;
+            if (pass1 != pass2) {
+                //document.getElementById("two").focus();//让two获得光标
+                document.getElementById("font_2").innerText = "*两次密码不相同!"
+            } else {
+                document.getElementById("font_2").innerText = "*";
+            }
+        }
+
+        //自动检查是否合格
+        function fun3() {
+            var email = document.getElementById("email_1").value;//获得email_1的值
+            var emailRegExp = /^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+            if (!emailRegExp.test(email)) {
+                //style="color: red;"
+                document.getElementById("email_1").focus();
+                document.getElementById("email_error").style.color = "red";
+                document.getElementById("email_error").innerText = "邮箱地址不合法";
+            } else {
+                document.getElementById("email_error").style.color = "blue";
+                document.getElementById("email_error").innerText = "正确";
+            }
+        }
+
+        //光标回去则变回原来的颜色
+        function fun4() {
+            document.getElementById("email_error").innerText = "";
+        }
+
+
+        function fun5() {
+            //获取提示标签
+            var userError = document.getElementById("user_error");
+            var user = document.getElementById("userName").value;
+            //取出值去除前后空格；
+            user = user.trim();
+            //判断是否有正确的特殊符号正则表达式
+            var userExp = /^[A-Za-z0-9]+$/;
+
+            if (user == "") {
+                //为空,提示不能为空
+                userError.innerText = "用户名不能为空";
+                userError.style.color = "red";
+                document.getElementById("userName").value = "";
+            } else if (user.length < 5 || user.length > 14) {
+                //长度不合法
+                userError.innerText = "用户名长度在5-14间";
+                userError.style.color = "red";
+            } else if (!userExp.test(user)) {
+                //用户名不合法 有特殊字符
+                userError.innerText = "用户名中不能有特殊字符";
+                userError.style.color = "red";
+            } else {
+                //合法
+                userError.innerText = "用户名合法✔";
+                userError.style.color = "blue";
+            }
+
+
+        }
+
+        function fun6() {
+            document.getElementById("user_error").innerText = "";
+        }
+
+    </script>
 </head>
 
 <body>
@@ -15,7 +96,8 @@
                     用户姓名：
                 </td>
                 <td>
-                    <input type="text" name="userName"/>
+                    <input type="text" name="userName" id="userName" onblur="fun5()" onfocus="fun6()"/>
+                    <span id="user_error"></span>
                 </td>
             </tr>
             <tr>
@@ -23,7 +105,17 @@
                     密码：
                 </td>
                 <td>
-                    <input type="password" name="password"/>
+                    <input type="password" name="password" id="one"/>
+                    <font id="font_1" style="color: red;">*</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    再次输入密码：
+                </td>
+                <td>
+                    <input type="password" name="password" id="two" onfocus="fun1()" onblur="fun2()"/>
+                    <font id="font_2" style="color: red;">*</font>
                 </td>
             </tr>
             <tr>
@@ -40,7 +132,8 @@
                     邮箱地址：
                 </td>
                 <td>
-                    <input type="text" name="email"/>
+                    <input type="text" name="email" id="email_1" onkeydown="fun3()" onfocus="fun4()"/>
+                    <span id="email_error"></span>
                 </td>
             </tr>
             <tr>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        //全局变量
+        var name = "mike";
+        var age = 23;
+        function  fun1(){
+            var sex = "man" ; //sex属于局部变量
+            home = "江苏"; //home属于全局变量，当这行命令执行时 它相当于：window。home = ”江苏“ ，需要调用函数，才会生成
+            window.alert("fun1"+name);
+        }
+        fun1();
+        window.alert(window.name+window.age);
+        window.alert(window.home);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

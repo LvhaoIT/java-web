@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script type="text/javascript">
+
+        //全局变量
+        var sname = "allen";
+        //上一句也就相当于 window。sname = “allen“;
+        function Student(){
+            this.sid = 100;
+            this.sname = "mike";
+        }
+        Student();//普通函数身份，window。Student（）。this---->window this。sname=“mike”
+        window.alert("window.sname = "+window.sname); //所以这边是显示 mike
+
+        //现在使用构造函数方式调用
+        var obj = new Student();//这里使用的时候，方法体里面的this指向的是 obj(需要将上面的屏蔽)
+        window.alert("window.sname = "+window.sname);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

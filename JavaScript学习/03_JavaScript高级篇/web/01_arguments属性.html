@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+
+        function fun2() {
+            window.alert("fun2在运行时得到实参个数为：" + arguments.length);
+            for (var i = 0; i < arguments.length; i++) {
+                window.alert("第 " + (i + 1) + " 个实参的值为：" + arguments[i] + " \n它的数据类型为：" + (typeof arguments[i]))
+            }
+        }
+
+        fun2(123, "str", new Date);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

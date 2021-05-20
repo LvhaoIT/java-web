@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        //1.标准声明函数对象方式
+        /**
+         * 在函数声明之前调用和之后调用都可以执行
+         */
+        fun1();//命令行
+        function  fun1(){
+        }
+        fun1();//命令行
+
+
+        //2、匿名声明函数对象方式
+        //fun2（）  在声明前使用无法使用，因为在第一次扫描的时候类未创建
+        var fun2 = function (){ window.alert("fun2 is run...");} //识别为命令行 在第二次扫描的时候创建
+        fun2();//可以使用
+
+    </script>
+</head>
+<body>
+
+
+</body>
+</html>

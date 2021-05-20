@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        var obj = {"name":"张三",
+                    "sex":"男",
+                    "age":15,
+                    "toString": function (){
+                        window.alert(this.name+this.sex+this.age);
+                    }}
+        obj.toString();
+
+        //JSON最简单的使用方式
+        var obj1 = {};
+
+        //JSON数组使用方式
+        var jsonArray=[
+            {"cityId":1,"cityName":"北京市"},
+            {"cityId":2,"cityName":"上海市"},
+            {"cityId":3,"cityName":"广州市"},
+        ];
+        for(var i=0;i<jsonArray.length;i++){
+            var obj2 = jsonArray[i];
+            window.alert(obj2.cityId+obj2.cityName);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
